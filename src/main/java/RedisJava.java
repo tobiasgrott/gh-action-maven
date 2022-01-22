@@ -13,6 +13,6 @@ public class RedisJava {
     }
 
     public String getCachedValue(String key){
-        this.jedis.get(key);
+        return this.jedis.get(key);
     }
 }
